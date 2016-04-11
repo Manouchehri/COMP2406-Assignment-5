@@ -111,3 +111,15 @@ label {
 input {
     width: 90%;
 }
+
+.scrollbox {
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollpar {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+}

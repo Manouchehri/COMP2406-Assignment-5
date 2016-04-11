@@ -2,10 +2,13 @@ extends layout
 
 block content
   h1= title
+  
+  div.scrollbox!=logs
 
-  p List the log entries in a scrollable text box of some kind.
-  p Have a button to go to the home (initial) screen
-
+  p
+  
+  form(method="get", action="/")
+    button(type="submit") Home
 
   
 
